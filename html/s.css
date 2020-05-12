@@ -1,0 +1,128 @@
+header h1 {
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    height: 80vh;
+    width: 90vw;
+    margin: 5vh 5vh 5vh 5vh;
+    border: black solid 1px;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+}
+
+.one {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    border: solid black 1px;
+    background-color: yellowgreen;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+
+.two {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    border: solid black 1px;
+    background-color: violet;
+    transition: transform 1s ease-in-out;
+}
+
+.two:hover{
+    transform: rotate(69420deg);
+}
+
+.three {
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    border: solid black 1px;
+    transition: transform 0.5 ease-in;
+    background-color: aqua;
+
+}
+
+.three:hover {
+    transform: skew(420deg);
+}
+
+.four {
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+    border: solid black 1px;
+    transition: transform 1s ease-in-out;
+    background-color: brown;
+}
+
+.four:hover {
+    transform: scale(5);
+}
+
+.five {
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    border: solid black 1px;
+    transition: transform 1s ease-in-out;
+    background-color: red;
+
+}
+
+.five:hover {
+    transform: scale(.5)
+}
+
+.six {
+    display: grid;
+    grid-row: 2;
+    grid-column: 3;
+    border: solid black 1px;
+    transition: transform 2s ease-in;
+    background-color: pink;
+}
+
+.six:hover {
+    transform: translate(-25%, 50%)
+}
+
+.seven {
+    display: grid;
+    grid-row: 3;
+    grid-column: 1;
+    border: solid black 1px;
+    background-color: blue;
+    box-shadow: -69px 172px 11px 0px rgba(0,0,0.0.75);
+}
+
+.eight {
+    display: grid;
+    grid-row: 3;
+    grid-column: 2;
+    border: solid black 1px;
+    border-radius: 53% 47% 51% 49% / 0% 100% 0% 100% ;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,56,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.nine {
+    display: grid;
+    grid-row: 3;
+    grid-column: 3;
+    border: solid black 1px;
+    clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+    background-color: chocolate;
+    transition: transform 5s ease-in;
+}
+
+.nine:hover {
+    transform: translateY(-1000%);
+}

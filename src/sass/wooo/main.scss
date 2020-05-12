@@ -1,0 +1,116 @@
+@import 'keyframes';
+
+header {
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+    
+    border: solid black 1px;
+    h1 { display: flex;
+        align-content:left;
+        width: 50%;
+        height: 100%;
+    }
+    h2 { 
+        display: flex;
+        align-items: center;
+    width: 50%;
+    height: 100%;
+    }
+}
+
+body {
+    background-color: #FF0000;
+    animation: bgColor 5s infinite linear;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template:repeat (4, 25%) / 33.3% 33.3% 33.3%;
+    grid-gap: 1em;
+    border: solid black 1px;
+    height:100%;
+    width: 100%;
+    .one {
+        display: grid;
+        border: solid black 1px;
+        grid-area: 1/1;
+        width: 100%;
+        height: 100%;
+    }
+    .two {
+        display: grid;
+        border: solid black 1px;
+        grid-area: 1 / 2
+    }
+    .three {
+        display: grid;
+        border: solid black 1px;
+        grid-area: 1 / 3;
+        background-image: url("./img/State-maps_Victoria.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        &:hover {
+            background-image: url(./img/Nice.gif);
+        }
+
+    }
+    .four {
+        display: grid;
+        border: solid black 1px;
+        grid-area: 2/ 1;
+    }
+    .five {
+        display: grid;
+        border: solid black 1px;
+        grid-area: 2/ 2;
+    }
+    .six{
+        display: grid;
+        border: solid black 1px;
+        grid-area: 2/ 3;
+        iframe {
+            display: grid;
+            grid-area: 2/3;
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+        }
+    }
+    .seven {
+        display: grid;
+        border: solid black 1px;
+        grid-area: 3/ 1;
+    }
+    .eight {
+        display: grid;
+        border: solid black 1px;
+        grid-area: 3/ 2;
+    }
+    .nine {
+        display: grid;
+        border: solid black 1px;
+        grid-area: 3/ 3;
+    }
+    .ten {
+        display: grid;
+        border: solid black 1px;
+        grid-area: 4/ 1;
+    }
+    .eleven {
+        display: grid;
+        border: solid black 1px;
+        grid-area: 4/ 2;
+    }
+    .twelve {
+        display: grid;
+        border: solid black 1px;
+        grid-area: 4/ 3;
+    }
+
+}

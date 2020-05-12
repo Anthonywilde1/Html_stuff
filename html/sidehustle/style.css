@@ -1,0 +1,333 @@
+html {
+   
+
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+}
+
+header h2 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+header nav a {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    font-size: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    flex-grow: 1;
+  
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#grid{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 50% 50%;
+    width: 99vh;
+    height: 100vh;
+}
+
+}
+
+.DMC #a img {
+    display: grid;
+  
+    max-width: 100%;
+    max-height: 100%; 
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+
+.DMC .Dante {
+    display: grid;
+  
+    min-width: 100%;
+    height: 100%;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-image: url("./img/DMCLogo.png");
+    background-attachment: scroll;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:whitesmoke;
+    text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    
+}
+
+.DMC .Dante h3 {
+    display: grid;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+.DMC .Dante p {
+    display: grid;
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    height: 90%;
+    width: 100%;
+    justify-content: right;
+    text-align: right;
+} 
+
+
+.Doom {
+   
+}
+
+.Doom #b {
+    display: grid;
+    grid-row: 2/ 3;
+    grid-column: 2/ 3;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.doomslayer {
+    display: grid;
+    grid-row: 2/ 3;
+    grid-column: 1/ 2;
+    height: 100%;
+    width: 100%;
+    
+    background-image: url("./img/DOOOM.jpeg");
+    background-attachment: scroll;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: red;
+    
+    text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.doomslayer h3 {
+    display: grid;
+    grid-row: 2/ 3;
+    grid-column: 1/ 2;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    justify-content: center;
+}
+
+.doomslayer p {
+    display: grid;
+    grid-row: 2/ 3;
+    grid-column: 1/ 2;
+    height: 75%;
+    width: 100%;
+    justify-content: left;
+    text-align: left;
+}
+
+.KH3 {
+    
+}
+
+#c {
+    display: grid;
+    grid-row: 3/ 4;
+    grid-column: 2/ 3;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.Sora {
+    display: grid;
+    grid-row: 3/ 4;
+    grid-column: 1/ 2;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    background-image: url("./img/142-1429319_kingdom-hearts-3-logo-png-kingdom-hearts-2.png");
+    background-attachment: scroll;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.Sora h3 {
+    display: grid;
+    grid-row: 3/ 4;
+    grid-column: 1/ 2;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.Sora p {
+    display: grid;
+    grid-row: 3/ 4;
+    grid-column: 1/ 2;
+    height: 75%;
+    width: 100%;
+    text-align: right;
+    justify-content: right;
+}
+
+.Bio {
+  
+  
+}
+
+#d {
+    display: grid;
+    grid-row: 4/ 5;
+    grid-column: 1/ 2;
+    background-image: url("./img/bioshock.jpeg");
+    background-attachment: scroll;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Adam {
+    display: grid;
+    grid-row: 4/ 5;
+    grid-column: 2/ 3;
+    height: 100%;
+    width: 50%;
+    background-image: url("./img/biotitle.jpeg");
+    background-attachment: scroll;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: red;
+    text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.Adam h3 {
+    display: grid;
+    grid-row: 4/ 5;
+    grid-column: 2/ 3;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.Adam p {
+    display: grid;
+    grid-row: 4/ 5;
+    grid-column: 2/ 3;
+    height: 75%;
+    width: 100%;
+    text-align: left;
+    justify-content: left;
+}
+
+.GoGo {
+    
+}
+
+#e {
+    display: grid;
+    grid-row: 5/ 6;
+    grid-column: 2/ 3;
+   background-image: url("./img/power-rangers-battle-for-the-grid-switch-hero.jpg");
+   background-attachment: scroll;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.Red {
+    display: grid;
+    grid-row: 5/ 6;
+    grid-column: 1/ 2;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    background-image: url("./img/gogo.jpeg");
+    background-attachment: scroll;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.Red h3 {
+    display: grid;
+    grid-row: 5/ 6;
+    grid-column: 1/ 2;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    justify-content: center;
+    color: yellow;
+}
+
+.Red p {
+    display: grid;
+    grid-row: 5 / 6;
+    grid-column: 1 / 2;
+    width: 100%;
+    height: 75%;
+    justify-content: right;
+    text-align: right;
+    color: yellow;
+}
+
+footer {
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+    text-align: center;
+    justify-content: flex-end;
+    
+}
+
+footer a {
+    display: flex;
+    height: 100%;
+    width: 33.3%;
+    justify-content: center;
+    align-items: center;
+}
